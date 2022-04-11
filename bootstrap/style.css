@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: black;
+}
+
+.magno{
+    margin-top: 50px;
+    border:  solid
+    10px;
+    border-color: aliceblue;
+}
+    
