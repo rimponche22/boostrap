@@ -13,4 +13,12 @@ body{
     10px;
     border-color: aliceblue;
 }
-
+.srv{
+    border-radius: 10px;
+    border: double;
+    background-color: rgb(255, 255, 255);filter:alpha(opacity=20); opacity: 0.3;;
+}
+.d{
+    border-radius: 20px;
+    border: rgb(49, 2, 2) double;
+}
