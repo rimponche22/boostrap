@@ -8,12 +8,9 @@ body{
 }
 
 .magno{
-    margin-top: 50px;
+    margin-top: 10px;
     border:  solid
     10px;
     border-color: aliceblue;
 }
 
-.r{
-    background-color: aliceblue;
-}
