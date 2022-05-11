@@ -36,23 +36,34 @@ body {
 .logo{
   width: 70px;
 }
+.navimg{
+  
+  border: rgb(231, 13, 13) double;
 
+}
+.album{
+  zoom:45%
+
+}
 
 
 /*Mobile*/
 @media screen and (max-width: 490px) {
   .servicios {display: none;}
+  .titulo{display: none;}
 }
 
 /*tablet*/
 @media screen and (min-width: 491px) and (max-width: 968px) {
   .carruaje{display: none;}
+  .titulo{display: none;}
 }
 
 
 /*Desktop*/
 @media screen and (min-width: 969px) {
   .carruaje{display: none;}
+  .titulo{display: none;}
   
 }
 
