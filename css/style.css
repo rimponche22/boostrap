@@ -42,15 +42,30 @@ body {
 
 }
 .album{
-  zoom:45%
+  width: 500px;
+  border-radius: 50%;
+  margin-top: 20px ;
 
 }
+.container{
 
+   margin-top: 60px ;
+  
+}
+.videos{
+  margin-top: 30px;
+}
+.ultimos{
+  border-top: solid red;
+  border-bottom: solid red
+  ;
+}
 
 /*Mobile*/
 @media screen and (max-width: 490px) {
   .servicios {display: none;}
   .titulo{display: none;}
+  
 }
 
 /*tablet*/
