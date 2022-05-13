@@ -36,11 +36,8 @@ body {
 .logo{
   width: 70px;
 }
-.navimg{
-  
-  border: rgb(231, 13, 13) double;
 
-}
+
 .album{
   width: 500px;
   border-radius: 50%;
@@ -59,6 +56,12 @@ body {
   border-top: solid red;
   border-bottom: solid red
   ;
+}
+.formulario{
+  margin-top: 30px;
+}
+.parrafo{border: solid red;
+
 }
 
 /*Mobile*/
