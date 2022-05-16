@@ -63,11 +63,29 @@ body {
 .parrafo{border: solid red;
 
 }
+.mapa{
+  display: flex;
+  justify-content: end;
+}
+.boton{
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 2px;
+  border: 2px rgb(39, 27, 38) solid;
+  color: aliceblue;
+ 
+  
+ 
+}
+
+
 
 /*Mobile*/
 @media screen and (max-width: 490px) {
   .servicios {display: none;}
   .titulo{display: none;}
+  .mapa{ max-width: 100%;
+  height: auto;}
   
 }
 
