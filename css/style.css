@@ -115,13 +115,47 @@ body {
   .titulo{display: none;}
   .mapa{ max-width: 100%;
   height: auto;}
-  
+  .imginfos{
+   
+  }
+  .imginfoscel{
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    color: black;
+  }
+  .recuadro{
+    display: none;
+  }
 }
+  
 
 /*tablet*/
 @media screen and (min-width: 491px) and (max-width: 968px) {
   .carruaje{display: none;}
   .titulo{display: none;}
+  .infos{
+    display: flex;
+    justify-content: center;
+  }
+  .imginfoscel{
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    color: black;
+  }
+  .nosot{
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+}
+.recuadro{
+  padding-top: 40px;
+  display: none;
+}
+
+
 }
 
 
@@ -129,6 +163,9 @@ body {
 @media screen and (min-width: 969px) {
   .carruaje{display: none;}
   .titulo{display: none;}
+  .recuadrocel{
+    display: none;
+  }
   
 }
 
