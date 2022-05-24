@@ -61,21 +61,50 @@ body {
   margin-top: 30px;
 }
 .parrafo{border: solid red;
+  padding-top: 5px ;
+  margin-bottom: 15px;
 
 }
 .mapa{
   display: flex;
   justify-content: end;
 }
-.boton{
+.sub{
   border-radius: 5px;
   padding: 2px;
   margin-right: 2px;
-  border: 2px rgb(39, 27, 38) solid;
+  border: 2px rgb(255, 255, 255) solid;
   color: aliceblue;
  
   
  
+}
+.boton{
+  padding: 5px;
+  margin: 3px;
+}
+.contenedor {
+  color: wheat;
+  font-size: 19px;
+}
+
+.recuadro{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.infos{
+  padding-top: 50px;
+
+}
+.cuadros{
+  padding: 10%;
+
+}
+.imginfos{
+  width: 500px;
+  border-radius: 50%;
+  zoom: 50%;
 }
 
 
